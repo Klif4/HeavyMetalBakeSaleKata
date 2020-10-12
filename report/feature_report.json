@@ -24,8 +24,9 @@
               "location": "test/acceptance/init.step.ts.ts:4"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "ReferenceError: expect is not defined\n    at World.<anonymous> (/home/klif/Katas/HeavyMetalBakeSaleKata/test/acceptance/init.step.ts.ts:5:5)"
             }
           },
           {
