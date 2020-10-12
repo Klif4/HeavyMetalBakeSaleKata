@@ -1,0 +1,53 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Init feature",
+    "line": 1,
+    "id": "init-feature",
+    "tags": [],
+    "uri": "feature/init.feature",
+    "elements": [
+      {
+        "id": "init-feature;init-scenario",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Init Scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I Have 1",
+            "match": {
+              "location": "test/acceptance/init.step.ts.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I add 1",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I have 2",
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
